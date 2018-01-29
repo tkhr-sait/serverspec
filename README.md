@@ -1,11 +1,20 @@
--前提
-+rubyのインストール
-+gem install serverspec
+serverspec test
+====
 
--使い方
---build環境チェック
- rake spec:localhost-build
---実行環境チェック
- rake spec:localhost
---すべて
- rake
+## 前提
++ rubyのインストール
++ gem install serverspec
+
+## 使い方
+```bash
+# build環境チェック
+rake spec:localhost-build
+```
+```bash
+# 実行環境チェック
+rake spec:localhost
+```
+```bash
+# すべて
+rake
+```
